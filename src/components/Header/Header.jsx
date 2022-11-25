@@ -1,13 +1,11 @@
 import React from 'react';
 
 const Header = () => {
-
-
     return (
         <div className='w-11/12 mx-auto'>
             <section className="navbar bg-base-100 border-b-2">
                 <div className="flex-1">
-                    <a className="text-2xl"><span className='font-bold'>shop</span>cart</a>
+                    <a href='/' className="text-2xl"><span className='font-bold'>shop</span>cart</a>
                 </div>
                 <div className="flex gap-2 font-semibold">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
